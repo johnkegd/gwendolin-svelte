@@ -1,7 +1,6 @@
 <script>
 	import ComponentInit from './Components/componentTest.svelte';
 	import HomeLayout from './Views/Home.svelte';
-	export let name;
 	let count = 0;
 	function handleClick() {
 		count += 10;
