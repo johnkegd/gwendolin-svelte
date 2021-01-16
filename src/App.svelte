@@ -1,5 +1,6 @@
 <script>
-	import ComponentInit from './componentTest.svelte';
+	import ComponentInit from './Components/componentTest.svelte';
+	import HomeLayout from './Views/Home.svelte';
 	export let name;
 	let count = 0;
 	function handleClick() {
@@ -9,9 +10,8 @@
 </script>
 
 <main>
-	<h1>Start {name}!</h1>
-	<button on:click={handleClick}>clicked {count} times</button>
-	<ComponentInit/>
+	<HomeLayout />
+	<ComponentInit />
 
 </main>
 
@@ -22,23 +22,11 @@
 		max-width: 240px;
 		margin: 0 auto;
 	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-	button {
-		margin-top: count;
-	}
-
+	
 	@media (min-width: 640px) {
 		main {
 			max-width: none;
 		}
 	}
-
-	
 
 </style>
