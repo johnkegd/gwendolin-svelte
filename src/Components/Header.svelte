@@ -36,7 +36,7 @@
   </style>
   
   <script>
-    const logoUrl = 'http://placehold.it/180x60';
+    const logoUrl = '';
     let menuOptions = [
       {
         title: 'Option 1',

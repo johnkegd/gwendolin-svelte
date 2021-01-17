@@ -1,9 +1,13 @@
-[![Contributors][contributors-shield]][contributors-url]
+<!--
+[![Contributors][contributors-shield]][https://github.com/johnkegd]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+-->
+
+![Netlify Status](https://api.netlify.com/api/v1/badges/a71fc933-c3a1-481d-8d4e-ef876dd8ee9c/deploy-status)
 
 
 
@@ -22,7 +26,7 @@
     <a href="README"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://gwendolin.netlify.app">View Demo</a>
     ·
     <a href="/issues">Request Colaboration</a>
     ·
@@ -69,13 +73,13 @@ This's a gift for my beatiful girldfriend Gwendolin birthday and as well an star
 by: Johnkegd
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+* Your time should be focused on creating something amazing (like draw for example xd).
+* You shouldn't keep doing beatiful stuff whitout your own space
+* You should give a kiss if you read this :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+Of course, there's a lot of things to do, but i'm pretty sure that if we keep doing and learing and working together, somewhem it would compensate to us!
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Here below a list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 
@@ -101,7 +105,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-TInstall the dependencies...
+Install the dependencies...
 
 ```bash
 cd svelte-app
@@ -159,7 +163,6 @@ Project Link: [https://github.com/gwendolin/app](https://github.com/gwendolin/ap
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Pages](https://pages.github.com)
 * [Animate.css](https://daneden.github.io/animate.css)
@@ -167,5 +170,4 @@ Project Link: [https://github.com/gwendolin/app](https://github.com/gwendolin/ap
 * [Slick Carousel](https://kenwheeler.github.io/slick)
 * [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
 * [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
 * [Font Awesome](https://fontawesome.com)
