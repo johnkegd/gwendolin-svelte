@@ -233,7 +233,7 @@ document.addEventListener("DOMContentLoaded", attachEvents);
     <a href = "https://www.sololearn.com/Profile/7938943/?ref=app"><i class = "fas fa-address-book"></i></a>
 </div>
 <div class = "circle main" id = "BackgroundMod">
-    <i class = "fas fa-cloud-moon" id = "dm"></i>
+    <i class = "fas fa-cloud-moon" id = "dm"><img src="Assets/dark_mode-24px.svg" alt="" width="60px"></i>
 </div>
 <div class = "circle main" id = "circle13">
     <i class = "fas fa-bell"></i>
