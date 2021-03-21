@@ -1,9 +1,9 @@
 <script>
-    import Header from '../Components/Header.svelte';
     import ContentBox from '../Components/ContentBox.svelte';
     import ProductsJson from '../productsTest.js';
-    import NavBtn from '../Components/NavigatorBtn.svelte';
+    // import NavBtn from '../Components/NavigatorBtn.svelte';
     import { onMount } from 'svelte';
+    import Gallery from '../Components/materialize/Gallery.svelte';
   
     let products
   
@@ -14,8 +14,8 @@
   </script>
   
   <div class="container-home">
-    <Header />
-    <ContentBox products={products} />
-    <NavBtn/>
+<!--     <ContentBox products={products} />
+ -->   <!--  <NavBtn/> -->
   </div>
+  <Gallery/>
   
