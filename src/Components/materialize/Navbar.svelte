@@ -1,7 +1,13 @@
 <script>
 import SideNav from './SideNav.svelte';
-</script>
 
+  document.addEventListener('DOMContentLoaded', function() {
+    var sidenav = document.querySelectorAll('.side-nav');
+    var dropdown = document.querySelectorAll('.dropdown-button');
+    var sidenavInit = M.Sidenav.init(sidenav, null);
+    var dropdownInit = M.Dropdown.init(dropdown, null);
+  });
+</script>
 
 <nav class="nav-extended">
     <div class="nav-background">
@@ -15,7 +21,8 @@ import SideNav from './SideNav.svelte';
         <li><a href="/pages/dark-theme">Dark Theme</a></li>
         <li><a href="/pages/blog">Blog</a></li>
         <li><a href="/pages/docs">Docs</a></li>
-        <li><a class="dropdown-button" href="#" data-activates="feature-dropdown" data-beloworigin="true" data-constrainwidth="false">Features<i class="material-icons bt">arrow_drop_down</i></a><ul id="feature-dropdown" class="dropdown-content" style="white-space: nowrap; position: absolute; top: 64px; left: 768.719px; opacity: 1; display: none;">
+        <li class="dropdownList"><a class="dropdown-button" href="#" data-target="feature-dropdown" data-beloworigin="true" data-constrainwidth="false">Features<i class="material-icons bt">arrow_drop_down</i></a>
+        <ul id="feature-dropdown" class="dropdown-content">
         <li><a href="/pages/full-header">Fullscreen Header</a></li>
         <li><a href="/pages/horizontal">Horizontal Style</a></li>
         <li><a href="/pages/no-image">No Image Expand</a></li>

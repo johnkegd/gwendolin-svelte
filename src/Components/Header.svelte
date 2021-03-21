@@ -2,5 +2,7 @@
   import Parallax from './materialize/Parallax.svelte';
   import Navbar from './materialize/Navbar.svelte';
 </script>
-<Navbar/>
+<div class="header-container">
+  <Navbar/>
+</div>
 <!-- <Parallax/> -->

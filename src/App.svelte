@@ -9,6 +9,7 @@
 	function handleClick() {
 		count += 10;
 	}
+	M.AutoInit();
 </script>
 
 <Header />
