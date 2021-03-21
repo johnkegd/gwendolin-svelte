@@ -1,4 +1,4 @@
-<ul class="side-nav" id="slide-out" style="transform: translateX(-100%);">
+<ul class="side-nav" id="nav-mobile">
     <li class="k"><a href="/pages/demo"><i class="material-icons">camera</i>Gallery</a></li>
     <li><a href="/pages/dark-theme"><i class="material-icons">brightness_3</i>Dark Theme</a></li>
     <li><a href="/pages/blog"><i class="material-icons">edit</i>Blog</a></li>

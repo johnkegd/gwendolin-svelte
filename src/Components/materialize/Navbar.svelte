@@ -2,10 +2,10 @@
 import SideNav from './SideNav.svelte';
 
   document.addEventListener('DOMContentLoaded', function() {
-    var sidenav = document.querySelectorAll('.side-nav');
     var dropdown = document.querySelectorAll('.dropdown-button');
-    var sidenavInit = M.Sidenav.init(sidenav, null);
+    var sidenav = document.querySelectorAll('.side-nav');
     var dropdownInit = M.Dropdown.init(dropdown, null);
+    var sidenavInit = M.Sidenav.init(sidenav,null);
   });
 </script>
 
@@ -15,7 +15,7 @@ import SideNav from './SideNav.svelte';
     </div>
     <div class="nav-wrapper db">
       <a href="/pages/demo" class="brand-logo"><i class="material-icons">camera</i>Gwendolin</a>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="bt hide-on-med-and-down">
         <li class="k"><a href="/pages/demo">Gallery</a></li>
         <li><a href="/pages/dark-theme">Dark Theme</a></li>
