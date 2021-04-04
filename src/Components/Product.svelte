@@ -39,7 +39,7 @@
   </style>
   
   <script>
-    import { cart } from '../Store/Store.js'
+    import { cart } from '../pages/Store/Store.js'
     export let product = {}
   
     const setCart = () => cart.update(total => total + 1)

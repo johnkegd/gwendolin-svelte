@@ -39,7 +39,7 @@
             <h3>Helado Flavours</h3>
             {#each menu as flavour}
             <label>
-                <input type=checkbox bind:group={flavours} value={flavour}>
+                <input type="checkbox" bind:group={flavours} value={flavour}>
                 {flavour}
             </label>
             {/each}
@@ -62,10 +62,12 @@
 <script>
     let counter = 0;
 	let scoops = ["One scoop", "Two scoops", "Three scoops"];
-    let flavours = ["Mint choc chip"];
+    let flavours = ["Mint", "choc", "chip"];
     let menu = ['Cookies and cream','Mint choc chip','Raspberry ripple'];
     const join = () => {
         if (flavours.length === 1) return flavours[0];
         return `${flavours.slice(0, -1).join(', ')} and  ${flavours[flavours.length - 1]}`;
     }
+
+
 </script>

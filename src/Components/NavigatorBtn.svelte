@@ -66,7 +66,8 @@
 
 body{
     background:white;
-    transition:background 0.2s;
+/*     transition:background 0.2s;
+ */
 }
 
 a{

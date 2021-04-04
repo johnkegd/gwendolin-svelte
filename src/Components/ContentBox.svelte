@@ -13,7 +13,7 @@
   
   <script>
     import Product from './Product.svelte'
-    import { cart } from '../Store/Store.js'
+    import { cart } from '../pages/Store/Store.js'
     
     export let products = []
   
