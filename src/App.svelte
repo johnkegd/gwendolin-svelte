@@ -1,15 +1,15 @@
 <script>
 	import ComponentInit from "./Components/componentTest.svelte";
+	import {onMount} from 'svelte';
+	import Initiador from './initiador';
 	import Footer from "./Components/Footer.svelte";
 	import Header from "./Components/Header.svelte";
 	import HomeLayout from "./pages/Home.svelte";
 	import Card from './Components/materialize/Card.svelte';
-	let count = 0;
 
-	function handleClick() {
-		count += 10;
-	}
-	M.AutoInit();
+	onMount(() => { 
+		Initiador();
+	});
 </script>
 
 <Header />
