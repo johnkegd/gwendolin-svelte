@@ -11,12 +11,12 @@ import SideNav from './SideNav.svelte';
 
 <nav class="nav-extended">
     <div class="nav-background">
-      <div class="ea k" style="background-image: url('//cdn.shopify.com/s/files/1/1775/8583/t/1/assets/icon-seamless.png?v=16169594983224640439');"></div>
+      <div class="ea k" style="background-image: url('Assets/images/stars.svg'); background-size: 20%;"></div>
     </div>
     <div class="nav-wrapper db">
-      <a href="/pages/demo" class="brand-logo"><i class="material-icons">camera</i>Gwendolin</a>
+      <a href="/pages/demo" class="brand-logo"><img src="Assets/images/logo-2.svg" with="200" height="300"></a>
       <a href="#" data-target="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="bt hide-on-med-and-down">
+      <ul class="bt hide-on-med-and-down background-g">
         <li class="k"><a href="/pages/demo">Gallery</a></li>
         <li><a href="/pages/dark-theme">Dark Theme</a></li>
         <li><a href="/pages/blog">Blog</a></li>
