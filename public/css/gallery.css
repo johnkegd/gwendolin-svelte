@@ -343,7 +343,7 @@
 }
 
 .af.lighten-1 {
-    background-color: #ab47bc !important
+    background-color: #ffffcc !important
 }
 
 .purple-text.text-lighten-1 {
@@ -2641,7 +2641,7 @@ ul.staggered-list li {
 
 footer.page-footer {
     padding-top: 20px;
-    background-color: #852d94
+    background-color: #4d4d4d
 }
 
 footer.page-footer .footer-copyright {
@@ -2654,8 +2654,8 @@ footer.page-footer .footer-copyright {
     -ms-flex-align: center;
     align-items: center;
     padding: 10px 0px;
-    color: rgba(255,255,255,0.8);
-    background-color: rgb(51 51 51 / 29%);
+    color: #4d4d4d;
+    background-color: #ffffb3;
 }
 
 table,th,td {
@@ -3887,8 +3887,8 @@ nav ul a span.cp {
 }
 
 nav {
-    color: #fff;
-    background-color: #ba68c8;
+    color: #ffffb3;
+    background-color: #4d4d4d;
     width: 100%;
     height: 56px;
     line-height: 56px
@@ -3949,6 +3949,7 @@ nav .brand-logo {
     display: inline-block;
     font-size: 2.1rem;
     padding: 0;
+    left: -15%;
     white-space: nowrap
 }
 
@@ -4014,10 +4015,14 @@ nav ul li.k {
 nav ul a {
     transition: background-color .3s;
     font-size: 1rem;
-    color: #fff;
+    color: #4d4d4d;
     display: block;
     padding: 0 15px;
     cursor: pointer
+}
+
+.background-g a {
+    color: #ccc !important;
 }
 
 nav ul a.g,nav ul a.btn-large,nav ul a.btn-large,nav ul a.btn-flat,nav ul a.btn-floating {
@@ -7975,7 +7980,7 @@ html,body {
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: #b3b3b3;
     font-family: "Lato", sans-serif
 }
 
@@ -8049,7 +8054,7 @@ nav ul:not(.indicators) li.k::before {
     right: 0;
     bottom: 0;
     height: 2px;
-    background-color: #fff
+    background-color: #ffffcc
 }
 
 nav .nav-background {
@@ -8239,8 +8244,8 @@ nav .categories-wrapper .categories-container .categories>li {
 .b .gallery-header {
     position: relative;
     padding: 20px;
-    background-color: #fff;
-    color: #444
+    background-color: #4d4d4d;
+    color: #ccc
 }
 
 .b .gallery-header h1,.b .gallery-header h2,.b .gallery-header h3,.b .gallery-header h4,.b .gallery-header h5 {
