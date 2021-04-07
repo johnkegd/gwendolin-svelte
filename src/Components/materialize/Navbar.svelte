@@ -1,12 +1,12 @@
 <script>
 import SideNav from './SideNav.svelte';
 
-  document.addEventListener('DOMContentLoaded', function() {
+  /* document.addEventListener('DOMContentLoaded', function() {
     var dropdown = document.querySelectorAll('.dropdown-button');
     var sidenav = document.querySelectorAll('.side-nav');
     var dropdownInit = M.Dropdown.init(dropdown, null);
     var sidenavInit = M.Sidenav.init(sidenav,null);
-  });
+  }); */
 </script>
 
 <nav class="nav-extended">
