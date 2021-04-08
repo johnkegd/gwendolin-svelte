@@ -1,3 +1,11 @@
+<script>
+
+</script>
+
+<style>
+
+</style>
+
 <footer class="page-footer">
     <div class="container">
         <div class="row">
@@ -34,4 +42,3 @@
         </div>
     </div>
 </footer>
-<div class="drag-target" data-sidenav="nav-mobile" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>

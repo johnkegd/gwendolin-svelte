@@ -1,8 +1,18 @@
-<script>
-import { each } from 'svelte/internal';
-import GalleryItem from './GalleryItem.svelte';
-import Items from '../../gallery-items';
+<script context="module">
+    export async function preload(page, session) {
+        const res = await this.fetch('/gallery-items.json');
+        const Items = await res.json();
+        return {Items};
+            }
 </script>
+
+<script>
+import GalleryItem from './GalleryItem.svelte';
+export let Items;
+</script>
+<svelte:head>
+    <title>Gwendolin Gallery</title>
+</svelte:head>
  <!-- Gallery -->
  <div id="portfolio" class="section">
     <div class="container">

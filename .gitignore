@@ -3,3 +3,7 @@ node_modules
 infoSvelte.md
 .DS_Store
 .vscode/
+/src/node_modules/@sapper/
+yarn-error.log
+/__sapper__/
+
