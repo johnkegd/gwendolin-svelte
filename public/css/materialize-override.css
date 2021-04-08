@@ -1,6 +1,7 @@
 .body {
     margin:0 !important;
     padding:0 !important;
+    background-color: #b3b3b3 !important;
 }
 
 .headder-container {
@@ -11,3 +12,16 @@
 .nav-wrapper .dropdownList .dropdown-content{
     top:62px !important;
 }
+
+nav .brand-logo {
+    left:-15% !important;
+}
+
+nav ul:not(.indicators) li.active::before {
+    background-color: #ffffcc !important;
+  }
+
+  .gallery .gallery-header {
+    background-color: #4d4d4d !important;
+    color: #ccc !important;
+  }
