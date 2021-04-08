@@ -1,4 +1,4 @@
-node_modules
+/node_modules
 /public/build/
 infoSvelte.md
 .DS_Store
