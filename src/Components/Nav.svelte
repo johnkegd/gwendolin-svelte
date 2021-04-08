@@ -1,6 +1,6 @@
 <script>
 	import logo from 'images/logo-2.svg';
-	import headBackground from 'images/stars.svg';
+	import background from 'images/stars.svg';
 	export let segment;
 </script>
 
@@ -21,7 +21,7 @@
 	<div class="nav-background">
 		<div
 			class="pattern active"
-			style="background-image:url({headBackground})"
+			style="background-image:url({background})"
 		/>
 	</div>
 	<div class="nav-wrapper container grey-text text-lighten-3">

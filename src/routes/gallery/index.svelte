@@ -1,14 +1,14 @@
-<script context="module">
+<!-- <script context="module">
     export async function preload(page, session) {
         const res = await this.fetch('/gallery-items.json');
         const Items = await res.json();
         return {Items};
             }
-</script>
+</script> -->
 
 <script>
-import GalleryItem from './GalleryItem.svelte';
-export let Items;
+/* import GalleryItem from './GalleryItem.svelte';
+export let Items; */
 </script>
 <svelte:head>
     <title>Gwendolin Gallery</title>
@@ -16,7 +16,7 @@ export let Items;
  <!-- Gallery -->
  <div id="portfolio" class="section">
     <div class="container">
-      <div class="gallery row">
+  <!--     <div class="gallery row">
 
         {#each Items as item}
         <GalleryItem 
@@ -28,6 +28,8 @@ export let Items;
         />
         {/each}
 
-      </div>
-    </div><!-- /.container -->
+      </div> -->
+      Here go the gallery!!
+    </div>
+    <!-- /.container -->
   </div>
