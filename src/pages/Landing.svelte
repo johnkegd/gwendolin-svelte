@@ -13,9 +13,5 @@
     })
   </script>
   
-  <div class="container-home">
-<!--     <ContentBox products={products} />
- -->   <!--  <NavBtn/> -->
-  </div>
   <Gallery/>
   

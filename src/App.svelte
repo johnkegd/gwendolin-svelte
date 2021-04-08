@@ -4,25 +4,19 @@
 	import Initiador from './initiador';
 	import Footer from "./Components/Footer.svelte";
 	import Header from "./Components/Header.svelte";
-	import HomeLayout from "./pages/Home.svelte";
-	import Card from './Components/materialize/Card.svelte';
+	import Landing from "./pages/Landing.svelte";
 
 	onMount(() => { 
 		Initiador();
 	});
 </script>
-
-<Header />
 <main>
-	<HomeLayout />
+	<Header />
+	<Landing />
+	<Footer />
 </main>
-<Footer />
-
 <style>
 	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
 		margin: 0 auto;
 	}
 
