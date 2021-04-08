@@ -1,6 +1,6 @@
 <script>
-	import logo from '../../static/images/logo-2.svg';
-	import headBackground from '../../static/images/stars.svg';
+	import logo from 'images/logo-2.svg';
+	import headBackground from 'images/stars.svg';
 	export let segment;
 </script>
 
