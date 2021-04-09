@@ -2,10 +2,10 @@
  * These declarations tell TypeScript that we allow import of images, e.g.
  * ```
 		<script lang='ts'>
-			import successkid from 'images/successkid.jpg';
+			import light from 'images/light_mode_24px.svg';
 		</script>
 
-		<img src="{successkid}">
+		<img src="{light}">
 	 ```
  */
 declare module "*.gif" {
