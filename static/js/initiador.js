@@ -2,7 +2,7 @@
  * this file contains the initializations of materialize components
  */
 
-(function ($) {
+export default function ($) {
   $(function () {
     M.AutoInit();
     //init Dropdown 
@@ -120,5 +120,5 @@
       inDuration: 500,
     });
   });
-})(jQuery);
+};
  // end of jQuery name space

@@ -1,10 +1,3 @@
-<script>
-
-</script>
-
-<style>
-
-</style>
 
 <footer class="page-footer">
     <div class="container">

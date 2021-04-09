@@ -1,11 +1,11 @@
 <script>
-	import logo from 'images/logo-2.svg';
-	import background from 'images/stars.svg';
+	import logo from 'images/logo-2.svg'
+	import backgroundPattern from 'images/stars.svg';
 	export let segment;
 </script>
 
 <style>
-	a {
+a {
 		text-decoration: none;
 		color: inherit;
 	}
@@ -15,13 +15,12 @@
 	}
 </style>
 
-
 <!-- Navbar and Header -->
 <nav class="nav-extended">
 	<div class="nav-background">
 		<div
 			class="pattern active"
-			style="background-image:url({background})"
+			style="background-image:url({backgroundPattern})"
 		/>
 	</div>
 	<div class="nav-wrapper container grey-text text-lighten-3">
@@ -82,3 +81,4 @@
 	<li><a href="."><i class="material-icons">swap_horiz</i>Horizontal Style</a></li>
 	<li><a href="."><i class="material-icons">texture</i>No Image Expand</a></li>
   </ul>
+
