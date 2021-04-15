@@ -7,8 +7,6 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 -->
 
-![Netlify Status](https://api.netlify.com/api/v1/badges/a71fc933-c3a1-481d-8d4e-ef876dd8ee9c/deploy-status)
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
